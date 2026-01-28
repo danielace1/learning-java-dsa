@@ -1,31 +1,29 @@
 package com.example.problems;
 
-import java.util.ArrayList;
-import java.util.List;
+// https://leetcode.com/problems/find-the-duplicate-number/
+// cyclic sort - finding duplicate num
+public class Problem287 {
+    public int findDuplicate(int[] arr) {
 
-// https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
-// all missing num - cyclic sort (google qn)
-public class Problem448 {
-
-    public List<Integer> findDisappearedNums(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1;
+
             if (arr[i] != arr[correctIndex]) {
                 swap(arr, i, correctIndex);
             } else {
                 i++;
             }
         }
-        // find missing nums
-        List<Integer> ans = new ArrayList<>();
+
         for (int j = 0; j < arr.length; j++) {
             if (arr[j] != j + 1) {
-                ans.add(j + 1);
+                return arr[j];
             }
         }
 
-        return ans;
+        return arr.length;
+
     }
 
     void swap(int[] arr, int first, int second) {
@@ -33,4 +31,5 @@ public class Problem448 {
         arr[first] = arr[second];
         arr[second] = temp;
     }
+
 }
