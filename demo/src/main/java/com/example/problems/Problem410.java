@@ -2,6 +2,7 @@ package com.example.problems;
 
 public class Problem410 {
     public static void main(String[] args) {
+        
 
     }
 
