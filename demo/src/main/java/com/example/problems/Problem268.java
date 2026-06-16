@@ -1,7 +1,7 @@
 package com.example.problems;
 
 // missing number - cyclic sort (amazon qn)
-public class Problem268java {
+public class Problem268 {
     public static void main(String[] args) {
 
     }
