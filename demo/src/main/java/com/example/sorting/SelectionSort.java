@@ -12,7 +12,7 @@ public class SelectionSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    // placing max element at correct index
+    // placing max element at correct index (last) or minimum at first
 
     static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {

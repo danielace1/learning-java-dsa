@@ -43,10 +43,10 @@ public class Patterns {
 
     // 2.
     // *
-    // **
-    // ***
-    // ****
-    // *****
+    // * *
+    // * * *
+    // * * * *
+    // * * * * *
     static void pattern2(int n) {
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
@@ -59,14 +59,15 @@ public class Patterns {
     }
 
     // 3.
-    // *****
-    // ****
-    // ***
-    // **
+    // * * * * *
+    // * * * *
+    // * * *
+    // * *
     // *
     static void pattern3(int n) {
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
+            // 5-1+1=5
             for (int col = 1; col <= n - row + 1; col++) {
                 System.out.print("*  ");
             }
