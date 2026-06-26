@@ -1,0 +1,315 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "com.example.Array",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "BitManipulation",
+            "request": "launch",
+            "mainClass": "com.example.BitManipulation",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteArrayProb",
+            "request": "launch",
+            "mainClass": "com.example.InfiniteArrayProb",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Maths",
+            "request": "launch",
+            "mainClass": "com.example.Maths",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "RotationCount",
+            "request": "launch",
+            "mainClass": "com.example.RotationCount",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "com.example.Sum",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "TimeComplexity",
+            "request": "launch",
+            "mainClass": "com.example.TimeComplexity",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "AllPaths",
+            "request": "launch",
+            "mainClass": "com.example.backtracking.AllPaths",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Maze",
+            "request": "launch",
+            "mainClass": "com.example.backtracking.Maze",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "NQueens",
+            "request": "launch",
+            "mainClass": "com.example.backtracking.NQueens",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "com.example.patterns.Patterns",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem1095",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem1095",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem1295",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem1295",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem1342",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem1342",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem1672",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem1672",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem17",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem17",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem268",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem268",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem33",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem33",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem34",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem34",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem410",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem410",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem744",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem744",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem832",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem832",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Problem852",
+            "request": "launch",
+            "mainClass": "com.example.problems.Problem852",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "com.example.recursion.Recursion",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "RecursionArray",
+            "request": "launch",
+            "mainClass": "com.example.recursion.RecursionArray",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "RecursionPatternAndSort",
+            "request": "launch",
+            "mainClass": "com.example.recursion.RecursionPatternAndSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "recursion1",
+            "request": "launch",
+            "mainClass": "com.example.recursion.recursion1",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "com.example.search.BinarySearch",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch2D",
+            "request": "launch",
+            "mainClass": "com.example.search.BinarySearch2D",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "com.example.search.LinearSearch",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.BubbleSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CyclicSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.CyclicSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.InsertionSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.MergeSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.QuickSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "com.example.sorting.SelectionSort",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Dice",
+            "request": "launch",
+            "mainClass": "com.example.strings.Dice",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Permutations",
+            "request": "launch",
+            "mainClass": "com.example.strings.Permutations",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilder1",
+            "request": "launch",
+            "mainClass": "com.example.strings.StringBuilder1",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "StringQns",
+            "request": "launch",
+            "mainClass": "com.example.strings.StringQns",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "SubSeq",
+            "request": "launch",
+            "mainClass": "com.example.strings.SubSeq",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "SubSet",
+            "request": "launch",
+            "mainClass": "com.example.strings.SubSet",
+            "projectName": "demo"
+        }
+    ]
+}
