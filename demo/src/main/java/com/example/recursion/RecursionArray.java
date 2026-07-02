@@ -93,6 +93,7 @@ public class RecursionArray {
         if (arr[index] == target) {
             list.add(index);
         }
+
         ArrayList<Integer> ansFrmBlwCalls = findAllIndex2(arr, target, index + 1);
         list.addAll(ansFrmBlwCalls);
 

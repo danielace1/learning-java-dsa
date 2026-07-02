@@ -31,6 +31,7 @@ public class Maze {
 
     }
 
+    // Vertical , horizontal
     static void path(String p, int r, int c) {
         if (r == 1 && c == 1) {
             System.out.println(p);
