@@ -1,6 +1,7 @@
 package com.example.problems;
 
-public class MSExcelCol {
+// https://leetcode.com/problems/excel-sheet-column-numbe
+public class Problem171 {
     public static void main(String[] args) {
         String s = "ZZ";
 
