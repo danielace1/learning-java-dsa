@@ -12,14 +12,23 @@ public class CyclicSort {
 
     static void sort(int[] arr) {
 
-        int i = 0;
-        while (i < arr.length) {
+        // int i = 0;
+        // while (i < arr.length) {
+        // int correctIndex = arr[i] - 1;
+
+        // if (arr[i] != arr[correctIndex]) {
+        // swap(arr, i, correctIndex);
+        // } else {
+        // i++;
+        // }
+        // }
+
+        for (int i = 0; i < arr.length; i++) {
             int correctIndex = arr[i] - 1;
 
             if (arr[i] != arr[correctIndex]) {
                 swap(arr, i, correctIndex);
-            } else {
-                i++;
+                i--;
             }
         }
 
