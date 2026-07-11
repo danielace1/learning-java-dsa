@@ -15,8 +15,8 @@ public class Problem67 {
 
                 if (i >= 0) {
                     sum += a.charAt(i) - '0';
-                    i--;
-                }
+                    i--; 
+                                    }
 
                 if (j >= 0) {
                     sum += b.charAt(j) - '0';

@@ -7,11 +7,11 @@ public class SubSeq {
         // subseq("", "abc");
         // subseqAscii("", "abc");
 
-        // System.out.println(subseq1("", "abc"));
+        System.out.println(subseq1("", "abc"));
 
         char ch = 'a';
         // System.out.println(ch + 0);
-        System.out.println(subseqAsciiRet("", "abc"));
+        // System.out.println(subseqAsciiRet("", "abc"));
 
     }
 
