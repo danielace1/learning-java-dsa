@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ContinuousSubArr {
     public static void main(String[] args) {
         int[] arr1 = { 2, 5, 3, 8, 9, 1, 0, 5, 8, 3 };
-        int[] arr2 = { 3, 8, 5 };
+        int[] arr2 = { 3, 8, 5 }; // small arr
 
         Arrays.sort(arr2);
 
@@ -19,7 +19,7 @@ public class ContinuousSubArr {
             Arrays.sort(window);
 
             if (Arrays.equals(window, arr2)) {
-                // System.out.println("index " + i + " to " + (i + arr2.length - 1));
+                System.out.println("index " + i + " to " + (i + arr2.length - 1));
             }
 
         }
