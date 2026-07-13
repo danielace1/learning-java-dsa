@@ -1,4 +1,4 @@
-package com.access;
+package com.example.OOP.access;
 
 public class SubClass extends A {
 
