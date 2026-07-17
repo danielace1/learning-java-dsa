@@ -1,10 +1,12 @@
-package com.systemdesign.railwayreservationsystem;
+package com.example.SystemDesignLearning.railwayReservationSystem;
 
 import java.util.*;
 
+import com.example.SystemDesignLearning.railwayReservationSystem.enums.BerthType;
+
 public class Main {
     public static void main(String[] args) {
-        TicketSystem ticketSystem = new TicketSystem();
+        TicketBooking ticketBooking = new TicketBooking();
         Scanner sc = new Scanner(System.in);
 
         while (true) {
@@ -33,26 +35,44 @@ public class Main {
                     System.out.println("Enter Berth Preference (L/U/M): ");
                     String berth = sc.nextLine();
 
-                    ticketSystem.bookTicket(name, age, gender, berth);
+                    BerthType berthPreference;
+
+                    switch (berth) {
+                        case "L":
+                            berthPreference = BerthType.LOWER;
+                            break;
+                        case "M":
+                            berthPreference = BerthType.MIDDLE;
+                            break;
+                        case "U":
+                            berthPreference = BerthType.UPPER;
+                            break;
+                        default:
+                            System.out.println("Invalid Berth Preference");
+                            continue;
+                    }
+
+                    ticketBooking.bookTicket(name, age, gender, berthPreference);
+                    ;
                     break;
 
                 case 2:
                     System.out.println("Enter ticket ID to cancel: ");
                     String ticketId = sc.nextLine();
-                    ticketSystem.cancelTicket(ticketId);
+                    ticketBooking.cancelTicket(ticketId);
                     break;
 
                 case 3:
-                    ticketSystem.printBookedTickets();
+                    ticketBooking.viewConfirmed();
                     break;
                 case 4:
-                    ticketSystem.printAvailableTickets();
+                    ticketBooking.viewAvailability();
                     break;
                 case 5:
-                    ticketSystem.viewRacTickets();
+                    ticketBooking.viewRAC();
                     break;
                 case 6:
-                    ticketSystem.viewWaitingListTickets();
+                    ticketBooking.viewWaiting();
                     break;
                 case 7:
                     System.out.println("Exiting...");
@@ -61,7 +81,7 @@ public class Main {
                     System.out.println("Invalid Choice. Try again.");
                     sc.close();
             }
-
         }
+
     }
 }
