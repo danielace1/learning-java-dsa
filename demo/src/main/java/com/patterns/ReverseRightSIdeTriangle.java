@@ -1,6 +1,11 @@
 package com.patterns;
 
 public class ReverseRightSIdeTriangle {
+    // * * * * *
+    // * * * *
+    // * * *
+    // * *
+    // *
     public static void main(String[] args) {
         int n = 5;
 

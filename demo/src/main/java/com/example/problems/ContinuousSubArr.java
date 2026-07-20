@@ -7,6 +7,8 @@ public class ContinuousSubArr {
         int[] arr1 = { 2, 5, 3, 8, 9, 1, 0, 5, 8, 3 };
         int[] arr2 = { 3, 8, 5 }; // small arr
 
+        // 3 8 5 in arr1
+
         Arrays.sort(arr2);
 
         for (int i = 0; i <= arr1.length - arr2.length; i++) {
