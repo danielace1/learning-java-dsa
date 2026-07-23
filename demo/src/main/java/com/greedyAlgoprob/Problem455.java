@@ -1,4 +1,4 @@
-package com.example.problems.leetcode;
+package com.greedyAlgoprob;
 
 import java.util.Arrays;
 
