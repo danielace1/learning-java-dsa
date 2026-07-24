@@ -1,17 +1,21 @@
 package com.example.OOP.generics;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomArray<T> {
-
+// here T should either be Number or its subclasses
+public class WildCardExample<T extends Number> {
     private Object[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0; // working as index val
 
-    public CustomArray() {
+    public WildCardExample() {
         data = new Object[DEFAULT_SIZE];
+    }
+
+    public void getList(List<? extends Number> list) {
+        // do something
     }
 
     public void add(T num) {
@@ -55,11 +59,11 @@ public class CustomArray<T> {
 
     @Override
     public String toString() {
-        return "CustomArrayList{" + "data=" + Arrays.toString(data) + ", size=" + size + '}';
+        return "WildCardExampleList{" + "data=" + Arrays.toString(data) + ", size=" + size + '}';
     }
 
     public static void main(String[] args) {
-        CustomArray list = new CustomArray();
+        WildCardExample list = new WildCardExample();
 
         // list.add(3);
         // list.add(5);
@@ -73,7 +77,7 @@ public class CustomArray<T> {
 
         ArrayList<Integer> list2 = new ArrayList<>();
 
-        CustomArray<Integer> list3 = new CustomArray<>();
+        WildCardExample<Number> list3 = new WildCardExample<>();
         for (int i = 0; i < 14; i++) {
             list3.add(2 * i);
         }
