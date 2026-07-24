@@ -3,6 +3,11 @@ package com.patterns;
 public class RandomPattern1 {
     public static void main(String[] args) {
 
+        // 1
+        // 2 4
+        // 4 6 8
+        // 7 9 11 13
+
         int n = 4;
 
         int i, j;
