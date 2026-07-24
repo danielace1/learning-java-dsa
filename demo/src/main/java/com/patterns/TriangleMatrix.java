@@ -9,11 +9,11 @@ public class TriangleMatrix {
     // 5 9 12 14 15
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 9;
 
-        int[][] arr = new int[n][n];
+        // int[][] arr = new int[n][n];
 
-        int num = 1;
+        // int num = 1;
 
         // for (int col = 0; col < n; col++) {
         // for (int row = col; row < n; row++) {
@@ -30,6 +30,7 @@ public class TriangleMatrix {
             }
             System.out.println();
         }
+
         // for (int row = 0; row < n; row++) {
         // for (int col = 0; col <= row; col++) {
         // System.out.print(arr[row][col] + " ");
