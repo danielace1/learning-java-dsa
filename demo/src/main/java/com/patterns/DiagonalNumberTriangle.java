@@ -15,6 +15,7 @@ public class DiagonalNumberTriangle {
 
         for (i = 0; i < n; i++) {
             int num = 1 + (n - i - 1) * (n - i) / 2;
+            // 1+(5-1-1)*(5-1)/2 = 1+(5)*(4/2) = 1+10 = 11
 
             System.out.print(num);
 

@@ -11,13 +11,11 @@ public class Xpattern {
     public static void main(String[] args) {
         String s = "HELLO";
 
-        char[] ch = s.toCharArray();
-        int n = ch.length;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == j || j == n - i - 1) {
-                    System.out.print(ch[i] + " ");
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < s.length(); j++) {
+                if (i == j || j == s.length() - i - 1) {
+                    System.out.print(s.charAt(i) + " ");
                 } else {
                     System.out.print("  ");
                 }

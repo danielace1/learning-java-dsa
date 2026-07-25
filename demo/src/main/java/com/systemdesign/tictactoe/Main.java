@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.err.print("Enter size of grid (n x n): ");
+        System.out.print("Enter size of grid (n x n): ");
         n = scanner.nextInt();
 
         board = new char[n][n];
