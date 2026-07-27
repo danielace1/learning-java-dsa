@@ -6,7 +6,7 @@ public class AddBinary {
         String B = "1";
         // 100
 
-        StringBuilder res = new StringBuilder();
+        String res = "";
 
         int i = A.length() - 1;
         int j = B.length() - 1;
@@ -23,11 +23,11 @@ public class AddBinary {
                 sum += B.charAt(j--) - '0';
             }
 
-            res.append(sum % 2);
+            res = (sum % 2) + res;
             carry = sum / 2;
         }
 
-        System.out.println(res.reverse().toString());
+        System.out.println(res);
 
     }
 }

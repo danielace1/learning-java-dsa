@@ -6,8 +6,8 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = { 9, 2, 6, 3, 7, 1, 5 };
 
-        // arr = mergeSort(arr);
-        mergeSortInPlace(arr, 0, arr.length);
+        arr = mergeSort(arr);
+        // mergeSortInPlace(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -19,8 +19,21 @@ public class MergeSort {
 
         int mid = arr.length / 2;
 
-        int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
-        int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+        // int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+        // int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+
+        int[] left = new int[mid];
+        for (int i = 0; i < mid; i++) {
+            left[i] = arr[i];
+        }
+
+        int[] right = new int[arr.length - mid];
+        for (int i = mid; i < arr.length; i++) {
+            right[i - mid] = arr[i];
+        }
+
+        left = mergeSort(left);
+        right = mergeSort(right);
 
         return merge(left, right);
     }

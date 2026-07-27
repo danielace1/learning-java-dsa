@@ -9,7 +9,7 @@ public class DiagonalNumberTriangle {
     // 1 3 6 10 15
 
     public static void main(String[] args) {
-        int n = 6;
+        int n = 5;
 
         int i, gap;
 
