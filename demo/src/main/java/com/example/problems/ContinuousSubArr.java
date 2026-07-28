@@ -20,7 +20,20 @@ public class ContinuousSubArr {
 
             Arrays.sort(window);
 
-            if (Arrays.equals(window, arr2)) {
+            // if (Arrays.equals(window, arr2)) {
+            // System.out.println("index " + i + " to " + (i + arr2.length - 1));
+            // }
+
+            boolean same = true;
+
+            for (int j = 0; j < window.length; j++) {
+                if (window[j] != arr2[j]) {
+                    same = false;
+                    break;
+                }
+            }
+
+            if (same) {
                 System.out.println("index " + i + " to " + (i + arr2.length - 1));
             }
 
