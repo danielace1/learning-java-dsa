@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Freq {
     public static void main(String[] args) {
-        int[] arr = { 3, 1, 3, 2, 3, 5 };
+        int[] arr = { 3, 1, 3, 2, 3, 5, 3 };
         int n = arr.length;
 
         // if (n <= 1) {

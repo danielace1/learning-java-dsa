@@ -68,7 +68,7 @@ public class TwoDArray {
                         }
 
                         if (k == len) {
-                            System.out.println("Found horizontally: ");
+                            System.out.println("Found vertically: ");
                             System.out.println("Start Index:" + i + " " + j);
                             System.out.println("End Index:" + (i + len - 1) + " " + j);
                             return;

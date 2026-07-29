@@ -18,7 +18,6 @@ public class RotateStrings {
         if (r == 'L') {
             return s.substring(n) + s.substring(0, n);
         } else if (r == 'R') {
-
             return s.substring(len - n) + s.substring(0, len - n);
         }
         return s;
