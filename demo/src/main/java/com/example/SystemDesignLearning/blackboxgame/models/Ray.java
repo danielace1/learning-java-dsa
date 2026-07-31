@@ -25,8 +25,36 @@ public class Ray {
         return direction;
     }
 
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public void setCol(int col) {
+        this.col = col;
+    }
+
     public void setDirection(Direction direction) {
         this.direction = direction;
+    }
+
+    public void move() {
+        switch (direction) {
+            case UP:
+                row--;
+                break;
+
+            case DOWN:
+                row++;
+                break;
+
+            case LEFT:
+                col--;
+                break;
+
+            case RIGHT:
+                col++;
+                break;
+        }
     }
 
 }
