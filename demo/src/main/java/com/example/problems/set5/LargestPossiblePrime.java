@@ -46,9 +46,9 @@ public class LargestPossiblePrime {
         }
 
         for (int i = idx; i < digits.length; i++) {
-            swap(digits, idx, i);
+            swap(digits, idx, i); // choose
 
-            generate(digits, idx + 1, res);
+            generate(digits, idx + 1, res); // explore
 
             // backtrack
             swap(digits, idx, i);
