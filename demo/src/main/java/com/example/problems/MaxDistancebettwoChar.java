@@ -5,6 +5,7 @@ public class MaxDistancebettwoChar {
         String s = "vwwxcvcxw";
 
         int maxDistance = Integer.MIN_VALUE;
+
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < s.length(); j++) {
                 if (s.charAt(i) == s.charAt(j)) {
