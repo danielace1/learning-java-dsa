@@ -5,13 +5,13 @@ import com.example.SystemDesignLearning.cabbookingsystem.enums.CarType;
 public class Cab {
     private int cabId;
     private String cabNum;
-    private CarType cabType;
+    private CarType carType;
     private boolean status;
 
-    public Cab(int cabId, String cabNum, CarType cabType) {
+    public Cab(int cabId, String cabNum, CarType carType) {
         this.cabId = cabId;
         this.cabNum = cabNum;
-        this.cabType = cabType;
+        this.carType = carType;
         this.status = true;
     }
 
@@ -23,8 +23,8 @@ public class Cab {
         return cabNum;
     }
 
-    public CarType getCabType() {
-        return cabType;
+    public CarType getCarType() {
+        return carType;
     }
 
     public boolean getStatus() {
