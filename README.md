@@ -29,7 +29,7 @@ I will keep adding more code, more ideas, and more practice as I grow.
 
 ## Credits
 
-Special credit to Kunal Kushwaha for the DSA Bootcamp.
+Thanks to Kunal Kushwaha for the DSA Bootcamp.
 
 - https://github.com/kunal-kushwaha/DSA-Bootcamp-Java
 
