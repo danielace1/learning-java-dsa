@@ -1,6 +1,7 @@
 package com.example.problems;
 
 public class BitonicPoint {
+    // peak
     public static void main(String[] args) {
         int[] arr = { 1, 3, 8, 12, 4, 2 };
         System.out.println(Bitonic(arr));
