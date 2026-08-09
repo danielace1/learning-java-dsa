@@ -18,9 +18,9 @@ public class BracketCombinations {
         int[] dp = new int[num + 1];
         dp[0] = 1;
 
-        for (int n = 1; n <= num; n++) {
-            for (int i = 0; i < n; i++) {
-                dp[n] += dp[i] * dp[n - i - 1];
+        for (int i = 1; i <= num; i++) {
+            for (int j = 0; j < i; j++) {
+                dp[i] += dp[j] * dp[i - j - 1];
             }
         }
 
@@ -30,7 +30,7 @@ public class BracketCombinations {
     public static void main(String[] args) {
         // keep this function call here
 
-        System.out.print(combinations(4));
+        System.out.print(combinations(3));
 
     }
 

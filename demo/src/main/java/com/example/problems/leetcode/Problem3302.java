@@ -24,6 +24,7 @@ public class Problem3302 {
                 suf[j] = -1;
                 j--;
             }
+            
             int[] res = new int[m];
             boolean usedMismatch = false;
             j = 0;
