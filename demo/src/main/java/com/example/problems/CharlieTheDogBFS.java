@@ -5,6 +5,21 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class CharlieTheDogBFS {
+
+    // Charlie the Dog
+    // Have the function
+
+    // CharListheting (stcarz)
+
+    // read the array of strings stored in strarr which will be a 4x4 matrix of the
+    // characters 'C', H. 'F', 'O', where C represents Charlie the dog. H represents
+    // its home, F represents dog food, and O represents and empty space in the
+    // grid. Your goal is to figure out the least amount of moves required to get
+    // Charlie to grab each piece of food in the grid by moving up, down, left, or
+    // right, and then make it home right after. Charlie cannot move onto the home
+    // before all pieces of food have been collected. For example: if thesis
+    // ["FOOF", "OCOO", "OOOH", "FOOO'L then this looks like the following grid:
+
     public static void main(String[] args) {
 
         String[] grid = {

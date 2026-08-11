@@ -25,5 +25,35 @@ public class MinDistance {
             System.out.println(min);
         }
 
+        pairSocks();
+
+    }
+
+    private static void pairSocks() {
+        int[] arr = { 10, 20, 20, 10, 10, 30, 50, 10, 20 };
+        boolean[] paired = new boolean[arr.length];
+
+        // 10 -> 4 = 2 pairs
+        // 20 -> 3 = 1 pair
+        // op : 3
+
+        int pairs = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (paired[i]) {
+                continue;
+            }
+
+            for (int j = i + 1; j < arr.length; j++) {
+
+                if (!paired[j] && arr[i] == arr[j]) {
+                    pairs++;
+                    paired[i] = true;
+                    paired[j] = true;
+                    break;
+                }
+            }
+        }
+        System.out.println(pairs);
     }
 }
