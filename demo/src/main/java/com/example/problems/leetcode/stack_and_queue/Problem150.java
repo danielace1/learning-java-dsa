@@ -1,0 +1,39 @@
+package com.example.problems.leetcode.stack_and_queue;
+
+import java.util.Stack;
+
+// https://leetcode.com/problems/evaluate-reverse-polish-notation/
+public class Problem150 {
+    class Solution {
+        public int evalRPN(String[] tokens) {
+            Stack<Integer> stack = new Stack<>();
+
+            for (String token : tokens) {
+                if (!token.equals("+") && !token.equals("-") && !token.equals("*") && !token.equals("/")) {
+                    stack.push(Integer.parseInt(token));
+                } else {
+                    int b = stack.pop();
+                    int a = stack.pop();
+
+                    switch (token) {
+                        case "+":
+                            stack.push(a + b);
+                            break;
+                        case "-":
+                            stack.push(a - b);
+                            break;
+                        case "*":
+                            stack.push(a * b);
+                            break;
+                        case "/":
+                            stack.push(a / b);
+                            break;
+                    }
+
+                }
+            }
+
+            return stack.pop();
+        }
+    }
+}
