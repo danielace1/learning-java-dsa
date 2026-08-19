@@ -1,11 +1,8 @@
 package com.example.problems.leetcode.misc;
 
-
 public class Problem744 {
     public static void main(String[] args) {
-
         char[] letters = { 'c', 'f', 'j' };
-
     }
 
     static char nextGreatestLetter(char[] letters, char target) {
@@ -25,6 +22,5 @@ public class Problem744 {
         }
 
         return letters[start % letters.length];
-
     }
 }

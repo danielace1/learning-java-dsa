@@ -3,6 +3,7 @@ package com.example.problems.leetcode.misc;
 // https://leetcode.com/problems/stone-game-ix
 public class Problem2029 {
     // alice and bob stone game
+    
     class Solution {
         public boolean stoneGameIX(int[] stones) {
             int count0 = 0;
