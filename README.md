@@ -20,7 +20,7 @@ This repository is my DSA journey.
 
 ## My Preparation
 
-- Read concepts, then code them by hand.
+- Read concepts, then code them by hand
 - Revisit older solutions and improve them
 - Practice consistently instead of studying in one stretch
 - Add new examples as I learn more
