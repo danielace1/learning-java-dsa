@@ -1,7 +1,5 @@
 # DSA Journey Repository
 
-This repository is my DSA journey.
-
 ## Goals
 
 - Build a strong foundation in Java
