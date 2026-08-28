@@ -10,7 +10,7 @@
 
 ## Content
 
-- Core Java practice.
+- Core Java practice
 - DSA topics such as recursion, searching, sorting, strings, and backtracking
 - OOP concepts and examples
 - Pattern programs and small problem-solving exercises
