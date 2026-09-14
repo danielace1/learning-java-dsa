@@ -1,0 +1,13 @@
+package com.example.problems.leetcode.sorting_and_intervals;
+
+// https://leetcode.com/problems/rectangle-overlap
+public class Problem836 {
+    class Solution {
+        public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+            int overlapWidth = Math.min(rec1[2], rec2[2]) - Math.max(rec1[0], rec2[0]);
+            int overlapHeight = Math.min(rec1[3], rec2[3]) - Math.max(rec1[1], rec2[1]);
+
+            return overlapWidth > 0 && overlapHeight > 0;
+        }
+    }
+}
