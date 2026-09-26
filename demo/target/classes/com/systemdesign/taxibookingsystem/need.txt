@@ -1,0 +1,8 @@
+Needed Class:
+
+Taxi - id, currentSpot, freetime, earnings, bookings[] (connected to booking class), isFree(), assign Bookings()
+Booking - id, customer obj(connected to customer class), droptime, charges
+Customer - id, pickup, drop, pickupTime
+BookingSystem - 
+
+Main
