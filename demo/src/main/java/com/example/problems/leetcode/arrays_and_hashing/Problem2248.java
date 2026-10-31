@@ -2,7 +2,6 @@ package com.example.problems.leetcode.arrays_and_hashing;
 
 import java.util.ArrayList;
 import java.util.List;
-
 // https://leetcode.com/problems/intersection-of-multiple-arrays/
 public class Problem2248 {
     class Solution {
