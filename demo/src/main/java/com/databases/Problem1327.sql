@@ -1,5 +1,4 @@
 -- https://leetcode.com/problems/list-the-products-ordered-in-a-period/description/
-
 select p.product_name, 
 sum(o.unit) as unit
 from products p
