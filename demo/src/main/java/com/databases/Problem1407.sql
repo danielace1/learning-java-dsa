@@ -1,5 +1,4 @@
 -- https://leetcode.com/problems/top-travellers/description/
-
 select u.name
 coalesce(sum(u.distance),0) as travelled_distance
 from users u
